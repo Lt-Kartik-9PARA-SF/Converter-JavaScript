@@ -15,7 +15,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.438);
-  height: 95vh;
+  min-height: 95vh;
+  
 }
 .converter-title {
   text-align: center;
@@ -53,6 +54,7 @@ button {
   border: 1px solid rgb(173, 169, 169);
   background-color: rgba(243, 240, 255, 0.226);
   width: 5rem;
+  margin-left: 1rem;
 }
 button:hover {
   background-color: green;
