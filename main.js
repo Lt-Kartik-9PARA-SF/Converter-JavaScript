@@ -1,3 +1,4 @@
+'use strict'
 var input = document.getElementById('input');
 var result = document.getElementById('result');
 var inputType = document.getElementById('inputType');
@@ -23,6 +24,8 @@ swapBtn.addEventListener('click', swapType);
 function swapType() {
     option_from = resultType.value;
     option_to = inputType.value;
+    //inputType.value = option_from;
+   // resultType.value = option_to;
     console.log("swapped");
     flag = (!flag)
     myResult();

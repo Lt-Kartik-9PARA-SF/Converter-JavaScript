@@ -1,13 +1,13 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: url("https://picsum.photos/1367/765");
+ 
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(238, 238, 116);
+  
 }
 .converter-body {
   width: 80vw;
@@ -56,6 +56,7 @@ button {
   background-color: rgba(243, 240, 255, 0.226);
   width: 5rem;
   margin-left: 1rem;
+  background-color: rgba(0, 255, 255, 0.26);
 }
 button:hover {
   background-color: green;
